@@ -6,7 +6,7 @@ from player4 import question4
 
 sys.tracebacklimit = 0 # traceback을 띄우지 않음
 WAITTIME = 2
-NUM_PLAYERS = len(os.listdir())
+NUM_PLAYERS = 5
 
 class MissonNotFinishError(Exception):
     pass
