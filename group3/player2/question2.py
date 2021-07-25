@@ -7,6 +7,6 @@ def question():
     
     text = "투빅스 " + str(generation) + "기 파이팅!"
     
-    print(text)
+    # print(text)
 
     assert text == "투빅스 16기 파이팅!" # 제시어가 맞는지 측정합니다. 이 줄은 수정하지 말아 주세요!
